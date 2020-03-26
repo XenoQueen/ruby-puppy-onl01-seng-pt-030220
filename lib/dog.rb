@@ -10,5 +10,9 @@ class Dog
     @all
   end
   
+  def self.clear_all
+    @all = []
+  end
+  
   def 
 end
