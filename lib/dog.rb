@@ -6,6 +6,10 @@ class Dog
     self.save
   end
   
+  def name
+    @name
+  end
+  
   def self.all
     @all
   end
@@ -23,6 +27,4 @@ class Dog
   def self.clear_all
     @all = []
   end
-  
-    
 end
