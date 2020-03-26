@@ -16,7 +16,8 @@ class Dog
     end
   end
   
-  
+  def save
+    
   
   def self.clear_all
     @all = []
